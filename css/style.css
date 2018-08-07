@@ -1,0 +1,92 @@
+/* Utils */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.plus{
+    text-align: center;
+    font-weight: bold;
+}
+
+.plus a{
+    color: black;
+    text-decoration: none;
+}
+
+.plus a:hover{
+    color: crimson;
+}
+
+
+/* Exo 1 */
+
+.ex{
+    height: 50px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 30px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ex:hover{
+    overflow: inherit;
+    height: auto;
+    cursor: pointer;
+    border-color: red;
+}
+
+.ex p{
+    margin: 8px 5px 15px 5px;
+}
+
+/* Exo 2 */
+
+
+ul{
+    text-align: center;
+    padding: 0;
+}
+
+ul li:first-child, ul li:last-child, ul li:nth-child(4){
+    list-style-type: square;
+    color: red;
+}
+
+ul li:first-line{
+    color:black;
+}
+
+/* Exo 3 */
+
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table thead tr{
+    background-color: #554348;
+    color: white;
+}
+
+th, td{
+      border: 2px solid #554348;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: #8C9A9E;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #D4F5F5;
+}

@@ -1,0 +1,84 @@
+/* FAIT SANS FLEX ET PAS RESPONSIVE */
+
+/* Utils */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Exo 4 */
+
+nav{
+    background-color: #330033;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+    font-size: 0.8em;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+nav ul li a:hover{
+    color: #ff6633;
+}
+
+.paragraphe{
+    width: 48%;
+    text-align: center;
+    float: left;
+    margin: 50px 20px;
+    color: #330033;
+}
+
+.paragraphe p{
+    font-size: 0.9em;
+}
+
+.logo{
+    width: 40%;
+    float: right;
+    margin: 10px 50px 10px 0;
+}
+
+.main{
+    background-color: #ff6633;
+    padding: 50px 100px;
+    height: 300px;
+}
+
+.img1{
+    float: left;
+}
+
+.img2{
+    float: right;
+}
+
+footer{
+    height: 50px;
+    background-color: #330033;
+    color: #ff6633;
+    line-height: 50px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer p{
+    margin: 0;
+}
